@@ -46,4 +46,4 @@ This machine learning project used scikit-learn and imbalanced-learn to train an
 * Due to a lower number of false positives, the low_risk sensitivity is now 94% with 100% precision
 
 ## Summary
-
+All of the machine learning models had low precision scores for the high-risk loans in accurately predicting positives. The balanced accuracy score for the models varied with the lowest score for the undersampling method and a high score with the AdaBoost classifier. Recall scores also varied between models with the lowest scores for undersampling and highest with the classifying methods. Of the models created, the Easy Ensemble AdaBoost Classifier would be the best model to use to predict credit risk due to the high recall scores for both high and low risk loans, as well as an accuracy score of 92.5%. The precision for this model is still very off, indicating that the positives are not necessarily accurate, and so this model could be much improved and training and testing more data before putting it into use.
